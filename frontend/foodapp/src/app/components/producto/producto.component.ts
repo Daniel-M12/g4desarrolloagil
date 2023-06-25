@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-producto',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./producto.component.scss']
 })
 export class ProductoComponent {
+  @Input()
+  nombre: String = '';
 
+  @Input()
+  precio: number = 0;
+
+  @Input()
+  imagen: String = '';
 }

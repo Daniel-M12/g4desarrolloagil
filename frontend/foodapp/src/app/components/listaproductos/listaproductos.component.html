@@ -3,70 +3,16 @@
   <title>Hat'alliykuy</title>
 </head>
 <body>
-  <h1 style="text-align: left; color: #05386B;">Hat'alliykuy</h1>
-
-  <div class="navbar">
-    <button><img src= "carrito_icon.png" alt="Carrito"></button>
-    <input type="text" placeholder="Buscar">
-    <button><img src= "user_icon.png" alt="user"></button>
-  </div>
-
   <h3 style="color: #05386B;">PRODUCTOS</h3>
   <div class="navbarProduct">
-    <div class="product">
-        <button><img src="../../../assets/carrito_icon.png"></button>
-        <h4 style="color: #05386B;">Proveedor</h4>
-      </div>
-    
-      <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Proveedor</h4>
-      </div>
-    
-      <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Proveedor</h4>
-      </div>
-    
-      <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Proveedor</h4>
-      </div>
-    
-      <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Proveedor</h4>
-      </div>
-
+    <div class="producto" *ngFor="let prod of productos">
+      <app-producto [nombre]="prod.nombre" [precio]="prod.precio"></app-producto>
+    </div>
   </div>
 
   <h3 style="color: #05386B;">CATEGORIAS</h3>
   <div class="navbarProduct">
-    <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Categoria</h4>
-      </div>
     
-      <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Categoria</h4>
-      </div>
-    
-      <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Categoria</h4>
-      </div>
-    
-      <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Categoria</h4>
-      </div>
-    
-      <div class="product">
-        <button><img src="imagen1.jpg"></button>
-        <h4 style="color: #05386B;">Categoria</h4>
-      </div>
-
   </div>
   <h6 style="color: #05386B;">Quieres trabajar con nosotros?</h6>
   

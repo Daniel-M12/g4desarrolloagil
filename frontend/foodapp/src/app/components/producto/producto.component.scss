@@ -1,0 +1,28 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background-color: #edf5e1;
+}
+
+button {
+    margin: 5px auto;
+}
+
+.product button {
+    background-color: #05386B;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    opacity: 80%;
+    cursor: pointer;
+  }
