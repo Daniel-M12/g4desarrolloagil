@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "title": "Aceite Primor Clasico 900ml",
+        "price": 9.95,
+        "description": "Aceite Primor Clasico 900ml",
+        "category": "Abarrotes",
+        "image": "../../assets/img/1.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Aceite Primor Premiun 900ml",
+        "price": 19.95,
+        "description": "Aceite Primor Premiun 900ml",
+        "category": "Abarrotes",
+        "image": "../../assets/img/2.jpeg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 3,
+        "title": "Arroz Costeño",
+        "price": 19.95,
+        "description": "Arroz Costeño Extra 750gr",
+        "category": "Abarrotes",
+        "image": "../../assets/img/3.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 4,
+        "title": "Arroz Faraon Extra Añejo 750gr",
+        "price": 15.95,
+        "description": "Arroz Faraon Extra Añejo 750gr",
+        "category": "Abarrotes",
+        "image": "../../assets/img/4.jpg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 5,
+        "title": "Arroz Paisana",
+        "price": 20.95,
+        "description": "Arroz Paisana Superior 750gr",
+        "category": "Abarrotes",
+        "image": "../../assets/img/5.jpg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 6,
+        "title": "Cielo",
+        "price": 19.95,
+        "description": "Cielo Agua Sin Gas 625ml",
+        "category": "Aguas y Bebidas",
+        "image": "../../assets/img/6.jpg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 7,
+        "title": "Pepsi",
+        "price": 9.95,
+        "description": "Pepsi Gaseosa 600ml",
+        "category": "Aguas y Bebidas",
+        "image": "../../assets/img/7.jpg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 8,
+        "title": "Coca Cola",
+        "price": 1.95,
+        "description": "Coca Cola Gaseosa 500ml",
+        "category": "Aguas y Bebidas",
+        "image": "../../assets/img/8.jpg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 9,
+        "title": "Inka Cola",
+        "price": 1.5,
+        "description": "Inka Cola Gaseosa 500ml",
+        "category": "Aguas y Bebidas",
+        "image": "../../assets/img/9.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 10,
+        "title": "Fresa",
+        "price": 12.95,
+        "description": "Fresa paquete 125gr",
+        "category": "Frutas y Verduras",
+        "image": "../../assets/img/10.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 11,
+        "title": "PLatano De Seda X kilo",
+        "price": 13.95,
+        "description": "PLatano De Seda X kilo",
+        "category": "Frutas y Verduras",
+        "image": "../../assets/img/11.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 12,
+        "title": "PLatano De Isla X kilo",
+        "price": 12.95,
+        "description": "PLatano De Isla X kilo",
+        "category": "Frutas y Verduras",
+        "image": "../../assets/img/12.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 13,
+        "title": "PLatano Bllaco X unidad",
+        "price": 12.95,
+        "description": "PLatano Bllaco X unidad",
+        "category": "Frutas y Verduras",
+        "image": "../../assets/img/13.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 14,
+        "title": "Pan Frances",
+        "price": 0.95,
+        "description": "Pan Frances Unidad",
+        "category": "Panaderia y Pasteleria",
+        "image": "../../assets/img/14.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 15,
+        "title": "Pan Ciabatta",
+        "price": 0.5,
+        "description": "Pan Ciabatta Unidad",
+        "category": "Panaderia y Pasteleria",
+        "image": "../../assets/img/15.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 16,
+        "title": "Pan Brioche Bolsa de 5",
+        "price": 2.95,
+        "description": "Pan Brioche Bolsa de 5",
+        "category": "Panaderia y Pasteleria",
+        "image": "../../assets/img/16.jpeg",
+        "rating": {
+            "rate": 13.9,
+            "count": 120
+        }
+    }
+]
