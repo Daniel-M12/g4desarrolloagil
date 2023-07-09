@@ -28,6 +28,19 @@ import { CartComponent } from './pages/cart/cart.component';
 import { CartService } from './services/cart.service';
 import { HttpClientModule } from '@angular/common/http';
 import { StoreService } from './services/store.service';
+import { PagoComponent } from './pago/pago.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { Router, Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
+
+const routes:Routes = [
+  {path:'Home',component:HomeComponent},
+  {path:'Proveedor',component:AddProductComponent}
+]
 
 @NgModule({
   declarations: [
@@ -38,6 +51,8 @@ import { StoreService } from './services/store.service';
     FiltersComponent,
     HeaderComponent,
     CartComponent,
+    PagoComponent,
+    AddProductComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,8 +72,14 @@ import { StoreService } from './services/store.service';
     MatSnackBarModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [CartService, StoreService],
   bootstrap: [AppComponent],
+  
 })
 export class AppModule {}
