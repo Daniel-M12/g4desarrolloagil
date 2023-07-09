@@ -1,0 +1,34 @@
+<h1 mat-dialog-title>Agregar Producto</h1>
+<div mat-dialog-content>
+    <form [formGroup]="addProductForm">
+        <mat-form-field class="form-control">
+            <mat-label>Ingrese Título</mat-label>
+            <input matInput type="text" formControlName="title">
+        </mat-form-field>
+        <mat-form-field class="form-control">
+            <mat-label>Ingrese Precio</mat-label>
+            <input matInput type="text" formControlName="price">
+        </mat-form-field>
+        <mat-form-field class="form-control">
+            <mat-label>Seleccione categoría</mat-label>
+            <mat-select formControlName="idCategory">
+                <mat-option *ngFor='let item of categories' [value]='item.id'>
+                    {{item.description}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="form-control">
+            <mat-label>Ingrese Descripción</mat-label>
+            <textarea matInput cdkTextareaAutosize cdkAutosizeMinRows="1" cdkAutosizeMaxRows="3" formControlName="description"></textarea>
+        </mat-form-field>
+        <mat-form-field class="form-control" appearance="legacy">
+            <mat-label>Seleccione Archivo</mat-label>
+            <ngx-mat-file-input formControlName="image"></ngx-mat-file-input>
+            <mat-icon matSuffix>add_photo_alternate</mat-icon>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions align="center">
+    <button mat-flat-button mat-dialog-close color="warn">Cancelar</button>
+    <button mat-flat-button cdkFocusInitial color="primary" (click)="saveProduct()">Agregar</button>
+</div>

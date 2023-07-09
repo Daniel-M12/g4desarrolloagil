@@ -6,6 +6,18 @@
     <app-filters (showCategory)="onShowCategory($event)"></app-filters>
   </mat-drawer>
   <mat-drawer-content class="p-6">
+    <div mat-dialog-actions align="end">
+      <button
+        mat-button
+        color="primary"
+        class="mat-raised-button"
+        style="margin-left: auto"
+        (click)="addProduct()"
+      >
+        Agregar Producto
+      </button>
+    </div>
+    <br>
     <app-products-header
       (columnsCountChange)="onColumnsCountChange($event)"
       (itemsCountChange)="onItemsCountChange($event)"

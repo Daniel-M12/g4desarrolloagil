@@ -28,6 +28,13 @@ import { CartComponent } from './pages/cart/cart.component';
 import { CartService } from './services/cart.service';
 import { HttpClientModule } from '@angular/common/http';
 import { StoreService } from './services/store.service';
+import { AddProductComponent } from './pages/home/components/add-product/add-product.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MaterialFileInputModule } from 'ngx-material-file-input';
 
 @NgModule({
   declarations: [
@@ -38,6 +45,7 @@ import { StoreService } from './services/store.service';
     FiltersComponent,
     HeaderComponent,
     CartComponent,
+    AddProductComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +65,13 @@ import { StoreService } from './services/store.service';
     MatSnackBarModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    MatDialogModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    MaterialFileInputModule
   ],
   providers: [CartService, StoreService],
   bootstrap: [AppComponent],
