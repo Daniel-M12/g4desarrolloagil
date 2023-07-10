@@ -35,7 +35,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MaterialFileInputModule } from 'ngx-material-file-input';
-
+import { PagoComponent } from './pago/pago.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +45,7 @@ import { MaterialFileInputModule } from 'ngx-material-file-input';
     FiltersComponent,
     HeaderComponent,
     CartComponent,
+    PagoComponent,
     AddProductComponent,
   ],
   imports: [

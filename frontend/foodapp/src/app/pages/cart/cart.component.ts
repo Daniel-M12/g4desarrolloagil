@@ -4,6 +4,8 @@ import { Cart, CartItem } from 'src/app/models/cart.model';
 import { CartService } from 'src/app/services/cart.service';
 import { loadStripe } from '@stripe/stripe-js';
 import { Subscription } from 'rxjs';
+import { MatDialog } from '@angular/material/dialog';
+import { PagoComponent } from 'src/app/pago/pago.component';
 
 @Component({
   selector: 'app-cart',
@@ -22,7 +24,7 @@ export class CartComponent implements OnInit, OnDestroy {
   dataSource: CartItem[] = [];
   cartSubscription: Subscription | undefined;
 
-  constructor(private cartService: CartService, private http: HttpClient) {}
+  constructor(private cartService: CartService, private http: HttpClient,private _dialog:MatDialog) {}
 
   ngOnInit(): void {
     this.cartSubscription = this.cartService.cart.subscribe((_cart: Cart) => {
@@ -68,5 +70,9 @@ export class CartComponent implements OnInit, OnDestroy {
     if (this.cartSubscription) {
       this.cartSubscription.unsubscribe();
     }
+  }
+
+  openPago(){
+    this._dialog.open(PagoComponent);
   }
 }

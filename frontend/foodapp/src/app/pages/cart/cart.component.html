@@ -70,7 +70,7 @@
           <mat-icon>close</mat-icon>
         </button>
       </td>
-      <td mat-footer-cell *matFooterCellDef>
+      <!-- <td mat-footer-cell *matFooterCellDef>
         <button
           (click)="onCheckout()"
           mat-raised-button
@@ -79,6 +79,9 @@
         >
           Continuar con el Checkout
         </button>
+      </td> -->
+      <td mat-footer-cell *matFooterCellDef>
+        <button mat-raised-button (click)="openPago()">Continuar con el Checkout</button>
       </td>
     </ng-container>
 
